@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import axios from "axios";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "../../generated/prisma";
 
 const client=  new PrismaClient();
 export function GET() {
